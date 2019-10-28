@@ -9,7 +9,7 @@ import net.thucydides.core.annotations.Step;
 @DefaultUrl("https://duckduckgo.com")
 public class DuckDuckGoSearchPage extends PageObject {
 
-    @FindBy(id = "search_from_input_homepage")
+    @FindBy(id = "search_form_input_homepage")
     WebElementFacade searchField;
 
     @FindBy(id = "search_button_homepage")
